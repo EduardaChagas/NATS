@@ -1,0 +1,76 @@
+<div class="content">
+  <h4 class="hline">
+  <a href="#" onclick="toggleDisplay(event, 'idata');">Data file </a>
+  </h4>
+
+<div class="intro" id="idata">
+
+	<p>NATS accepts only <strong>CSV files</strong> that must present data related to a time series.</p>
+
+	<p>The data files can be loaded in the choose <strong>CSV files</strong> section and each line must represent the value of the series 		in a certain period of time to be evaluated.</p>
+
+
+  <p>Example of a <strong>time series data</strong>: </p>
+
+  <table>
+    <tr>
+      <th>Daily temperature</th>
+    </tr>
+    <tr>
+      <td>&emsp;&emsp;&emsp;23</td>
+    </tr>
+    <tr>
+      <td>&emsp;&emsp;&emsp;20.5</td>
+    </tr>
+    <tr>
+      <td>&emsp;&emsp;&emsp;22</td>
+    </tr>
+    <tr>
+      <td>&emsp;&emsp;&emsp;30.5</td>
+    </tr>
+    <tr>
+      <td>&emsp;&emsp;&emsp;31</td>
+    </tr>
+    <tr>
+      <td>&emsp;&emsp;&emsp;27.5</td>
+    </tr>
+    <tr>
+      <td>&emsp;&emsp;&emsp;26.25</td>
+    </tr>
+    <tr>
+      <td>&emsp;&emsp;&emsp;26.5</td>
+    </tr>
+    <tr>
+      <td>&emsp;&emsp;&emsp;23</td>
+    </tr>
+    <tr>
+      <td>&emsp;&emsp;&emsp;23.5</td>
+    </tr>
+  </table>
+
+
+  </div>
+
+
+  <h4 class="hline">
+    <a href="#" onclick="toggleDisplay(event, 'icov');"> Probability distribution </a>
+ </h4>
+
+  <div class="intro" id="icov">
+   After uploading the data file, identify the probability distribution that should be used in the calculations of the descriptors.
+  </div>
+
+   <h4 class="hline">
+
+   <a href="#" onclick="toggleDisplay(event, 'imodel');"> Parameters of ordinal patterns </a>
+
+   </h4>
+
+   <div class="intro" id="imodel">
+
+	<p>Choose the dimension and delay to be used in the formation of the ordinal patterns of the time series data. By default, NATS will 	  preset <strong>dimension</strong> 3 and <strong>delay</strong> 1.</p>
+
+   </div>
+
+
+</div>

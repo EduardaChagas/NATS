@@ -1,0 +1,13 @@
+name: nats
+title:
+username:
+account: natsseries
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1895484
+bundleId: 4042257
+url: https://natsseries.shinyapps.io/nats/
+when: 1609335024.97513
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: nats.jpg|Data|NATS_package|Source

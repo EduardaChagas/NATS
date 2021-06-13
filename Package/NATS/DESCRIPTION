@@ -1,0 +1,24 @@
+Package: NATS
+Title: Nonparametric Analysis of Time Series
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Eduarda",
+           family = "Chagas",
+           role = c("aut", "cre"),
+           email = "eduarda.chagas@dcc.ufmg.br",
+           comment = c(ORCID = "0000-0001-9647-0506"))
+Description: An implementation of functions to time series nonparametric analysis. 
+    Several Information Theory descriptors, distributions formed by ordinal patterns 
+    symbolization (Bandt and Pompe (2002) <doi:10.1103/PhysRevLett.88.174102>) and 
+    graphic tools are provided.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 2.10)
+RoxygenNote: 7.1.1
+Imports: 
+    ggplot2,
+    ggpubr,
+    ggthemes,
+    gtools

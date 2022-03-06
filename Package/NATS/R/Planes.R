@@ -261,7 +261,7 @@ PatternsOnGraph <- function(series, dimension, delay, number.pattern){
       if(all(p.patterns[i,] == symbols[as.integer(number.pattern),])){
         lengthW = lengthW + 1
         point.value[lengthW] = elements[i,1]
-        point.time[lengthW] = index[order(elements[i,1])]
+        point.time[lengthW] = i
       }
     }
 

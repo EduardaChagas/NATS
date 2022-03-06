@@ -124,7 +124,6 @@ BandtPompe <- function(series, dimension, delay){
 #' Returns the indices of the ordinal patterns. The indices of the patterns followed are done by ordering the positions of the groups in chronological order (Permutation of Classification)
 #' @keywords internal
 .PatternWedding <- function(patterns){
-  if(max(patterns) == 2) patterns = patterns + 1
   m = dim(patterns)[1]
   D = dim(patterns)[2]
   symbols = .DefineSymbols(D)

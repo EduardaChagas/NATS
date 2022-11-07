@@ -13,12 +13,10 @@ Description: An implementation of functions to time series nonparametric analysi
     graphic tools are provided.
 License: GPL-2
 Encoding: UTF-8
-LazyData: true
-Depends:
-    R (>= 2.10)
+Depends: R (>= 2.10)
 RoxygenNote: 7.2.1
-Imports: 
-    ggplot2,
-    ggpubr,
-    ggthemes,
-    gtools
+Imports: ggplot2, ggpubr, ggthemes, gtools
+NeedsCompilation: yes
+Packaged: 2022-11-07 01:11:10 UTC; eduarda_chagas
+Author: Eduarda Chagas [aut, cre] (<https://orcid.org/0000-0001-9647-0506>)
+Maintainer: Eduarda Chagas <eduarda.chagas@dcc.ufmg.br>

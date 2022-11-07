@@ -1,0 +1,69 @@
+BandtPompe              Calculates the Bandt-Pompe distribution of the
+                        given time series
+BhattacharyaDistance    Calculates the bhattacharya distance of the
+                        given probability distribution and the uniform
+                        distribution
+ChebyshevDistance       Calculates the chebyshev distance of the given
+                        probability distribution and the uniform
+                        distribution
+EqualitiesValues        Calculates the percentage of repeated elements
+                        in a time series
+EuclidianDistance       Calculates the euclidian distance of the given
+                        probability distribution and the uniform
+                        distribution
+FSPlane                 Plots the Fisher-Shannon Plane for a given
+                        probability
+FisherEntropy           Calculates the Fisher entropy of a probability
+                        distribution
+HCPlane                 Plots the Entropy-Complexity Plan for a given
+                        probability
+HCPlaneZoom             Plots the entropy-complexity plane for a given
+                        probability, without curves and with zoom on
+                        the generated points
+HarmonicMean            Calculates the harmonic mean of the given
+                        probability distribution and the uniform
+                        distribution
+HellingerDistance       Calculates the hellinger distance of the given
+                        probability distribution and the uniform
+                        distribution
+Histogram               Plot the histogram of the ordinal patterns of
+                        the given time series
+JensenDivergence        Calculates the Jensen Divergence of the given
+                        probability distribution and the uniform
+                        distribution
+KullbackDivergence      Calculates the kullback divergence of the given
+                        probability distribution and the uniform
+                        distribution
+ManhattanDistance       Calculates the manhattan distance of the given
+                        probability distribution and the uniform
+                        distribution
+MinEntropy              Calculates the Min Entropy of a probability
+                        distribution
+NumberEdges             Calculates the number of edges of a transition
+                        graph
+PatternsOnGraph         Time-series plot with starting points of the
+                        given pattern
+RenyiEntropy            Calculates the Renyi entropy of a probability
+                        distribution
+SelfTransitionProb      Calculates the self transition probability of a
+                        transition graph
+ShannonEntropyNormalized
+                        Calculates the normalized Shannon entropy of a
+                        probability distribution
+SquaredDistance         Calculates the squared distance of the given
+                        probability distribution and the uniform
+                        distribution
+StatisticalComplexity   Calculates the statistical complexity of the
+                        given probability distribution
+TimeSeriesPlane         Plot time series
+TransitionGraphs        Calculates the transition graph of ordinal
+                        pattern for the given time series
+TsallisEntropy          Calculates the Tsallis entropy of a probability
+                        distribution
+WPE                     Calculates the Weighted Bandt-Pompe
+                        distribution of the given time series
+WeightTransitionGraph   Calculates the weighted transition graph of
+                        ordinal pattern for the given time series
+WoottersDistance        Calculates the wootters distance of the given
+                        probability distribution and the uniform
+                        distribution

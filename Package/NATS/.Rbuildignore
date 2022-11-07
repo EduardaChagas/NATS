@@ -1,3 +1,2 @@
-^.*\.Rproj$
+^NATS\.Rproj$
 ^\.Rproj\.user$
-^\.github$
